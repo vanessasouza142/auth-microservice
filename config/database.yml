@@ -52,4 +52,4 @@ production:
   <<: *default
   database: auth_microservice_production
   username: auth_microservice
-  password: <%= ENV['DATABASE_PASSWORD'] %>
+  password: <%= ENV['AUTH_MICROSERVICE_DATABASE_PASSWORD'] %>
